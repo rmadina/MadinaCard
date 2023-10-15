@@ -1,86 +1,109 @@
 /* Reset some default styles */
 body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Apply some basic styles to the body */
-  body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
-  }
-  
-  /* Style the card container */
-  #card {
-    background-color: #fff;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style the profile picture */
-  #card img {
-    max-width: 100%;
-    border-radius: 50%;
-  }
-  
-  /* Style the title */
-  .title {
-    margin: 20px 0;
-  }
-  
-  h1 {
-    font-size: 24px;
-    font-weight: 600;
-    color: #333;
-  }
-  
-  h2 {
-    font-size: 16px;
-    font-weight: 400;
-    color: #777;
-  }
-  
-  /* Style the horizontal rule */
-  .hr1 {
-    border: 1px solid #ddd;
-    margin: 20px 0;
-  }
-  
-  /* Style the main content */
-  .card-main {
-    margin: 20px 0;
-  }
-  
-  p {
-    font-size: 14px;
-    line-height: 1.5;
-    color: #555;
-  }
-  
-  /* Style the contact information */
-  #information-button {
-    margin: 20px 0;
-  }
-  
-  #information-button p {
-    font-size: 14px;
-    color: #555;
-  }
-  
-  /* Style the social media icons */
-  #icons {
-    margin: 20px 0;
-  }
-  
-  .fa-brands {
-    font-size: 20px;
-    margin: 0 10px;
-    color: #0077B5; /* Change the color to match the reference page */
-  }
-  
-  /* Additional styles may be needed to match the reference page's exact appearance */
-  
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styles to the body */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #252b68;
+  text-align: center;
+}
+
+/* Style the card container */
+#card {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the profile picture */
+#card img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* Style the title */
+.title {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777;
+}
+
+/* Style the horizontal rule */
+.hr1 {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* Style the main content */
+.card-main {
+  margin: 20px 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Style the social media icons */
+#icons {
+  margin: 20px 0;
+}
+
+.fa-brands {
+  font-size: 20px;
+  margin: 0 10px;
+  color: #0077B5; /* Change the color to match the reference page */
+}
+
+/* Additional styles may be needed to match the reference page's exact appearance */
+
+/* Style social media buttons */
+.main-socials {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.mail, .linkedin {
+  margin: 0 10px;
+}
+
+.fa-envelope {
+  color: #0077B5;
+}
+
+.fa-linkedin-in {
+  color: #0077B5;
+}
+
+/* Style links */
+a {
+  text-decoration: none;
+  color: #0077B5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
